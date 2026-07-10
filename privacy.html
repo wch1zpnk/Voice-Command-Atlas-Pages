@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy - Voice Command Atlas</title>
+    <meta name="description" content="Privacy details for Voice Command Atlas.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Voice Command Atlas home">
+        <img src="assets/app-icon.png" alt="" width="44" height="44">
+        <span>Voice Command Atlas</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="privacy.html" aria-current="page">Privacy</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </header>
+
+    <main class="narrow">
+      <section class="page-title">
+        <p class="eyebrow">Privacy</p>
+        <h1>Your command data stays on your Mac.</h1>
+        <p class="lede">Voice Command Atlas is designed for local command review and maintenance. It does not upload your custom Voice Control command contents.</p>
+      </section>
+
+      <section class="plain-section">
+        <h2>What The App Reads</h2>
+        <p>Voice Command Atlas reads the local Voice Control custom command file at:</p>
+        <pre><code>~/Library/Preferences/com.apple.speech.recognition.AppleSpeechRecognition.CustomCommands.plist</code></pre>
+      </section>
+
+      <section class="plain-section">
+        <h2>When The App Changes Data</h2>
+        <p>The app changes custom command data only after explicit actions such as add, edit, delete, enable, disable, restore, refresh reference, or bulk profile changes.</p>
+      </section>
+
+      <section class="plain-section">
+        <h2>Backups</h2>
+        <p>Before changing command data, Voice Command Atlas saves a backup snapshot under Application Support:</p>
+        <pre><code>~/Library/Application Support/Voice Command Atlas/Backups</code></pre>
+      </section>
+
+      <section class="plain-section">
+        <h2>Network Use</h2>
+        <p>Command data, snapshots, backups, and command test results stay local. The app does not send custom command contents to JBDApps or any remote service.</p>
+      </section>
+    </main>
+
+    <footer>
+      <span>Voice Command Atlas</span>
+      <a href="mailto:support@jbdapps.com">support@jbdapps.com</a>
+    </footer>
+  </body>
+</html>
